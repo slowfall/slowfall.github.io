@@ -3,7 +3,7 @@ layout: post
 title: "使用jekyll在github上搭建博客"
 description: "使用jekyll在github上搭建博客"
 category: web
-tags: [jekyll, github, ruby, rake, mac]
+tags: [jekyll, github, ruby, rake, mac, OS X]
 ---
 一直很少写博客，感觉还是要记下一些东西，所以想搭建一个自己的博客。看了一些其他人的博客，发现可以在github上搭建博客，好像很厉害的样子，于是决定试一试。
 
@@ -44,21 +44,25 @@ git push
 安装ruby，并为ruby安装目录下bin设置环境变量（PATH）；然后安装DevKit，参考[windows下安装DevKit](http://rubyer.me/blog/134/)。
 
 ###3.2安装jekyll
-如果没有安装DevKit，直接安装jekyll会出错；
+如果没有安装DevKit，直接安装jekyll会出错;ruby和Devkit完成安装之后，执行如下命令安装jekyll：
 
 	gem update -install (更新gem)
 	gem install jekyll 
 
+Mac OS X预装了Ruby，所以直接安装就可以了：
+
+	sudo gem install jekyll
+	
 ###3.3预览
 安装成功之后，进入页面repository目录，使用jekyll预览：
-
+ 
 	cd username.github.io
 	jekyll s
 
 然后访问 http://localhost:4000 就可以看到效果了。
 
 ##4.markdown编辑器
-windows环境可以使用[MarkdownPad](http://markdownpad.com/)编辑预览。
+windows环境可以使用 [MarkdownPad](http://markdownpad.com/) 编辑预览；OS X可以使用 [Mou](http://25.io/mou/) 编辑预览。
 
 
 {% include JB/setup %}
