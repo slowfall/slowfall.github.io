@@ -8,4 +8,4 @@ title: CocoaZack博客
 欢迎访问Cocoa Zack的博客。
 
 ##最近
-[使用jekyll在github上搭建博客](http://localhost:4000/web/2015/07/02/use-jekyll-and-github-to-build-blog/)
+[使用jekyll在github上搭建博客](http://www.cocoazack.com/web/2015/07/02/use-jekyll-and-github-to-build-blog/)
